@@ -13,3 +13,8 @@ Guidance for AI coding assistants working in `flux-stage`.
 - License is GPL-3.0-or-later; keep new files compatible.
 - Keep changes small and tested.
 - Real-time paths (sync, failover tone, spatial) are allocation- and lock-free.
+
+## Git workflow
+- Work directly on `main`: commit there and push without asking for permission.
+- Exception: if another agent or session is currently working on `main` in this repo, use a short-lived branch instead.
+- Force-pushes and history rewrites still need explicit confirmation.
